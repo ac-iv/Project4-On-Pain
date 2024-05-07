@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8" />
+</head>
+<body>
+  <main>
+    <h1>The Prophet: On Pain</h1>
+  </main>
+  
+  <h3></h3>
+  <button id="back" onclick="backPage()">Back</button>
+
+  <button id="next" onclick="changePage()">Next</button>
+  <footer>
+    <p>
+        Page 2
+    </p>
+  </footer>
+  <script src="js/page2.js"></script>
+  <script>
+    function changePage() {
+      window.location.href = 'page3.html';
+    }
+    function backPage() {
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>
